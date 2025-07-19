@@ -1,0 +1,6 @@
+﻿services:
+  twitchbot:
+    image: twitchbot
+    build:
+      context: .
+      dockerfile: TwitchBot/Dockerfile
